@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo_navbar {
+  max-width: 120px;
+}
+
+
+.special_left_padding {
+  width: 100%;
+
+}
+
+@media (min-width: 1024px) {
+
+  .special_left_padding {
+    width: calc( 100% - 284px )!important;
+  }
+}
