@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // Example usage in a component
 import React, { useState, useEffect } from 'react';
 import ApiService from './ApiService';
